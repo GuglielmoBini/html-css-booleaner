@@ -12,7 +12,7 @@ header {
     background-image: url(../img/pattern.png);
     background-color: rgb(0, 174, 255);
     background-size: contain;
-    height: 150px;
+    height: 120px;
 }
 
 #logo {
@@ -20,7 +20,7 @@ header {
     width: 200px;
     height: 200px;
     padding: 10px;
-    padding-bottom: 55px;
+    padding-bottom: 90px;
     padding-left: 0px;
 }
 h1 {
@@ -63,4 +63,26 @@ thead {
 
 .sfondo-azzurro {
     background-color: aqua;
+}
+
+#titolo-footer {
+    color: #5c5c5c;
+}
+
+#sfondo-mac {
+    background-image: url(../img/monitor.jpg);
+    margin-bottom: 15px;
+}
+
+#sfondo-mac, #sfondo-grafico {
+    color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 250px;
+    width: 350px;
+    background-size: contain;
+}
+
+#sfondo-grafico {
+    background-image: url(../img/graph.jpg);
 }
